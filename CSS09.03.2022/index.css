@@ -1,0 +1,71 @@
+
+
+.kubas, .kubasx {
+    height: 60px;
+    width: 60px;
+    background: green;
+    margin-bottom: 10px;
+    border: 10px;
+    color: red
+
+}
+
+.kubas .kubas {
+    color:white
+}
+
+.kubasx {
+    height: 100px;
+    background: purple;
+
+}
+
+a:visited {
+    color: black
+}
+
+input[type=text] {
+    background: green;
+
+}
+
+input[type=number] {
+    background: yellow;
+    
+}
+
+input[type=email] {
+    background: red
+    
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td:nth-of-type(odd) {
+    background: blue;
+}
+
+
+
+td:nth-of-type(even) {
+    background: red;
+}
+
+tr:nth-last-of-type(even) td:nth-last-of-type(even) {
+    background: yellow;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+
+
+header {
+    display: flex;
+    padding: 50px 56px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 58px;
+}
+
+.express-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 26px; 
+
+}
+
+.express-container img {
+    margin-right: 8px;
+    height: 34px;
+}
+
+.express-container div, .right-side nav a {
+    color: #3d2514;
+    font-weight: 700;
+}
+
+.express-container div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.express-container nav {
+    font-family: "Bebas Neue";
+    font-size: 22px;
+    margin: 0 26px;
+    
+    color: #3d2514;
+
+}
+
+.right-side nav a {
+    margin-right: 56px;
+    letter-spacing: 4px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    align-content: stretch;
+    
+}
+
+.right-side nav a:last-child {
+    margin-right: 0px;
+}
+
+.right-side nav {
+    align-content: flex-end;
+    align-self: flex-end;
+    text-align: end;
+}
+

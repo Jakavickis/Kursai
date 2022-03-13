@@ -1,0 +1,89 @@
+.photos {
+    padding: 100px 50px;
+    font-size: 25px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.two-pohotos {
+    margin-right: 80px;
+    align-items: center;
+
+}
+
+
+.first-photo {
+    position: relative;
+    margin-left: 80px;
+
+}
+
+.first-title {
+    position:absolute;
+    top: 0;
+    left: 21px;
+}
+
+.first-title h2 {
+    margin-top: -30px;
+}
+
+.photos img {
+    align-items: column;
+}
+
+.first-photo {
+    position: relative;
+
+}
+
+.pp {
+    position: absolute;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.pp h3 {
+    margin-top: -38px;
+    font-size: 50px;
+}
+
+.pp h6 {
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 43px;
+    font-size: 31px;
+}
+
+.confused p:first-child {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 43px;
+    font-size: 31px;
+}
+
+.confused p:last-child {
+    margin-top: -38px;
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+
+
+.secound-photo {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.confused {
+    position: absolute;
+}
+

@@ -1,0 +1,100 @@
+.landing {
+    padding: 0px 56px;
+    display: flex;
+    justify-content: space-between;
+    background: url(./assets/Rectangle.png);
+    margin-top: -193px;
+    padding: 213px 56px 60px;
+}
+
+.dashed {
+    border: 1px dashed #3d2514;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    padding: 10px 12px;
+    align-items: flex-start;
+}
+
+.landing div, .landing h2, .landing h4 {
+    margin-bottom: 2px;
+    color: #3d2514;
+    text-transform: capitalize;
+
+}
+
+
+.landing h2 {
+    font-size: 114px;
+    line-height: 62px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    margin-top: 28px;
+    
+}
+
+.landing h4 {
+    text-transform: capitalize;
+    font-size: 56px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+.burgerimg img {
+    padding: 0px 100px;
+
+}
+
+.burgerimg {
+    position: relative;
+}
+
+
+.circle {
+    position: absolute;
+    left: 135px;
+    bottom: 0;
+    width: 174px;
+    height: 174px;
+    background: red;
+    border-radius: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.price {
+    width: 153px;
+    height: 151px;
+    border: 2px dashed #fff;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+
+}
+
+.price-top span:first-child {
+    font-size: 70px;
+}
+
+.price-top span:last-child {
+    font-size: 33px;
+}
+
+.price div:last-child {
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-right: -10px;
+}
