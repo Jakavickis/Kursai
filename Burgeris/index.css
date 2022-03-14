@@ -1,11 +1,10 @@
-
-
-header {
+.plspadding {
+    padding: 50px 60px;
     display: flex;
-    padding: 50px 56px;
     justify-content: space-between;
-
 }
+
+
 
 .logo {
     height: 58px;
