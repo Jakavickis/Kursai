@@ -13,6 +13,8 @@
     font-family: "Bebas Neue";
     padding: 10px 12px;
     align-items: flex-start;
+    width: 376px;
+    height: 21px;
 }
 
 .landing div, .landing h2, .landing h4 {

@@ -1,0 +1,40 @@
+.choosenchill {
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px 200px;
+    text-align: center;
+
+}
+
+.choosenchill button {
+    background-color: #ffc045;
+    color: #3d2514;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: "Bebas Neue";
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 40px;
+
+
+
+}
+
+.choosenchill h2 {
+    font-size: 50px;
+    line-height: 38px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.choosenchill p {
+    font-size: 17px;
+    line-height: 29px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}

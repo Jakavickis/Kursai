@@ -1,0 +1,61 @@
+.triple-row-burger {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.latters h3 {
+    font-size: 35px;
+    line-height: 38px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.latters p {
+    padding: 33px 59px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+
+.burger-two .latters p {
+    padding: 0 33px;
+    margin-bottom: 34px;
+    margin-top: 22px;
+}
+
+.latters button {
+    background-color: #bf2222;
+    font-size: 17px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    border: none;
+    padding: 20px 40px;
+    text-transform: uppercase;
+
+
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+    text-align: center;
+
+}
+
