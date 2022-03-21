@@ -1,6 +1,6 @@
 .triple-row-burger {
     max-width: 1440px;
-    margin: auto;
+    margin:0 auto 150px;
     display: flex;
     justify-content: space-between;
 
@@ -51,6 +51,7 @@
 }
 
 .why {
+    flex: 0 0 0 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
