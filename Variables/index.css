@@ -1,0 +1,7 @@
+:root {
+    --melynas: yellow;
+}
+
+body {
+    background: var(--melynas);
+}

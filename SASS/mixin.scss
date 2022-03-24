@@ -1,0 +1,5 @@
+@mixin cube ($dimensions: 100px) {
+    width: $dimensions;
+    height: $dimensions;
+
+}

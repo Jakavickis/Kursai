@@ -1,0 +1,58 @@
+@import 'mixin';
+
+$newcolor: yellow;
+$color: purple;
+
+
+
+.form {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+
+    label {
+        width: 100px;
+        height: 100px;
+        background: blue;
+
+    }
+
+    div {
+        background: red;
+        @include cube;
+        display: flex;
+        flex-direction: row;
+
+        div {
+            background: orange;
+            @include cube(75px);
+
+            div {
+                background: $color;
+                @include cube(50px)
+            }
+        }
+
+
+    }
+
+    button {
+        background: $newcolor;
+
+    }
+
+    @mixin flexlayout($vertical: center, $horizontal: center) {
+        display: flex;
+        justify-content: $vertical;
+        align-items: $horizontal;
+    }
+
+    .test {
+        @include cube(400px);
+        @include flexlayout(flex-start, flex-start);
+        background: black;
+        color: white;
+        font-size: 30px;
+
+    }
+}

@@ -1,0 +1,27 @@
+nav {
+    display: none;
+}
+
+button:focus nav {
+    display: flex;
+}
+
+button:focus-within nav {
+    display: block;
+}
+
+@media (min-width: 400px) {
+    svg {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
