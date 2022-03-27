@@ -1,0 +1,43 @@
+@mixin textalign ($vertical: 100px, $horizontal: 100px, $color: purple) {
+    height: $vertical;
+    width: $horizontal;
+    background-color: $color;
+
+}
+
+
+.bluesky {
+
+
+
+
+    div {
+        @include textalign;
+        
+        div {
+            @include textalign(70px, 70px, red);
+
+            div {
+                @include textalign(50px, 50px, blue);
+            }
+        }
+
+
+    }
+
+
+}
+
+
+footer {
+    div {
+        @include textalign(300px, 300px, green)
+
+    }
+}
+
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,159 @@
+body {
+  padding: 27px 400px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.choose {
+  font-size: 12px;
+  margin-left: 100px;
+}
+
+.choose a {
+  color: #1f373d;
+  margin-right: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.join-button a {
+  font-size: 12px;
+  color: #1f373d;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.join-button button {
+  width: 145px;
+  height: 40px;
+  background-color: #ffcc01;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 10px;
+  color: #1f373d;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.modern-apartment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 25px;
+  margin-right: -75px;
+}
+
+.modern-apartment .big-block {
+  width: 842px;
+  height: 630px;
+  background-color: #96bece;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.modern-apartment .big-block div {
+  width: 590px;
+  height: 80px;
+  background-color: #ffcc01;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 80px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #1f373d;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+
+.modern-apartment2 {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+
+.modern-apartment2-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.modern-apartment2-titles h2 {
+  width: 565px;
+  font-size: 62px;
+  letter-spacing: -2px;
+  line-height: 78px;
+  color: #1f373d;
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin-bottom: 50px;
+}
+
+.modern-apartment2-titles div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modern-apartment2-titles div input {
+  width: 410px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #919eb1;
+  font-weight: 400;
+  font-family: "Montserrat";
+  border-radius: 0;
+  border-style: none;
+  padding: 20px 50px;
+}
+
+.modern-apartment2-titles div button {
+  width: 115px;
+  height: 70px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #ffcc01;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #1f373d;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.modern-apartment2-titles .arrow-down {
+  margin-top: 79px;
+}
+/*# sourceMappingURL=index.css.map */
